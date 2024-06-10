@@ -206,7 +206,9 @@ export default class Example extends PureComponent {
               <Card style={{ width: "18rem" }}>
                 <Card.Img variant="top" src={financial3} />
                 <Card.Body>
-                  <Card.Title>Client Management</Card.Title>
+                  <Card.Title>
+                    <u>Client </u>Management
+                  </Card.Title>
                   <Card.Text>
                     We want to take a moment to update you on some important
                     developments from our Client Management team. As part of our
@@ -220,7 +222,9 @@ export default class Example extends PureComponent {
               <Card style={{ width: "18rem" }}>
                 <Card.Img variant="top" src={financial3} />
                 <Card.Body>
-                  <Card.Title>Project Management</Card.Title>
+                  <Card.Title>
+                    <u>Project </u>Management
+                  </Card.Title>
                   <Card.Text>
                     We want to take a moment to update you on some important
                     developments from our Project Management team. As part of
@@ -234,7 +238,9 @@ export default class Example extends PureComponent {
               <Card style={{ width: "20rem" }}>
                 <Card.Img variant="top" src={financial3} />
                 <Card.Body>
-                  <Card.Title>Financial Management</Card.Title>
+                  <Card.Title>
+                    <u>Financial </u>Management
+                  </Card.Title>
                   <Card.Text>
                     We want to take a moment to update you on some important
                     developments from our Financial Management team. As part of
